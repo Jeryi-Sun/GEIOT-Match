@@ -4,9 +4,9 @@ This repository contains the source coda of ‘Graph Optimal Transport-based Exp
 # Trainining and Evaluation
 ```python
 python selector_one.py
-python selector_two_multi_class_ot_v3.py
-python seq2seq_convert_cail.py
-python seq2seq_model_t5.py
+python selector_two_multi_class_ot_v3.py 
+python seq2seq_convert_GE_graph.py
+python seq2seq_model_t5_GE_graph.py
 python predictor_convert_t5.py
 python cat_predictor.py
 python predictor_v5.py
