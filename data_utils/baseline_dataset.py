@@ -9,7 +9,7 @@ import sys
 sys.path.append("..")
 data_type = 'ELAM'
 if data_type == 'CAIL':
-    from models.selector_two_multi_class_ot_cail_v2 import Selector2_mul_class, args, load_checkpoint, OT, load_data, \
+    from models.selector_two_multi_class_ot_cail import Selector2_mul_class, args, load_checkpoint, OT, load_data, \
         data_extract_npy, data_extract_json, device
 elif data_type =='ELAM':
     from models.selector_two_multi_class_ot_v3 import Selector2_mul_class, args, load_checkpoint, OT, load_data, data_extract_npy, data_extract_json, device
